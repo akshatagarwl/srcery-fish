@@ -6,14 +6,14 @@ set -l blue 2c78bf
 set -l magenta e02c6d
 set -l cyan 0aaeb3
 set -l white d0bfa1
-set -l brightblack 918175
-set -l brightred f75341
-set -l brightgreen 98bc37
-set -l brightyellow fed06e
-set -l brightblue 68a8e4
-set -l brightmagenta ff5c8f
-set -l brightcyan 53fde9
-set -l brightwhite fce8c3
+set -l bright_black 918175
+set -l bright_red f75341
+set -l bright_green 98bc37
+set -l bright_yellow fed06e
+set -l bright_blue 68a8e4
+set -l bright_magenta ff5c8f
+set -l bright_cyan 53fde9
+set -l bright_white fce8c3
 
 set -l orange ff5f00
 set -l bright_orange ff8700
@@ -27,22 +27,22 @@ set -l xgray6 585858
 
 # Syntax Highlighting Colors
 set -g fish_color_normal $white
-set -g fish_color_command $brightwhite
-set -g fish_color_quote $brightgreen
+set -g fish_color_command $bright_white
+set -g fish_color_quote $bright_green
 set -g fish_color_redirection $white
 set -g fish_color_end $orange
 set -g fish_color_error $red
 set -g fish_color_param $cyan
-set -g fish_color_comment $brightblack
+set -g fish_color_comment $bright_black
 set -g fish_color_match --background=$xgray2
 set -g fish_color_selection --background=$xgray2
 set -g fish_color_search_match --background=$xgray2
 set -g fish_color_operator $yellow
-set -g fish_color_escape $brightmagenta
-set -g fish_color_autosuggestion $brightblack
+set -g fish_color_escape $bright_magenta
+set -g fish_color_autosuggestion $bright_black
 
 # Completion Pager Colors
-set -g fish_pager_color_progress $brightblack
+set -g fish_pager_color_progress $bright_black
 set -g fish_pager_color_prefix $cyan
 set -g fish_pager_color_completion $foreground
 set -g fish_pager_color_description $comment
