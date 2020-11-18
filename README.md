@@ -7,7 +7,7 @@
 If you use [Fisher](https://github.com/jorgebucaran/fisher) to manage your `fish` plugins:
 
 ```
-fisher add dracula/fish
+fisher add humancalico/srcery-fish
 ```
 
 If you use [Oh My Fish](https://github.com/oh-my-fish/oh-my-fish) to manage your `fish` plugins:
